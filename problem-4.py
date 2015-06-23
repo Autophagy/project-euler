@@ -5,11 +5,8 @@ def checkIfPalindromic(num):
 	#convert number into string
 	string = str(num)
 
-	#check whether the string is equal to its reversed string
-	if (string == string[::-1]):
-		return True
-	else:
-		return False
+	#return whether the string is equal to its reversed string
+	return string == string[::-1]
 
 highestPalindrome = 0
 
