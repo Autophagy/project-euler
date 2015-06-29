@@ -7,13 +7,13 @@ def GCD(a,b):
 		return a
 	else:
 		return GCD(b, a % b)
-	
+
 #Lowest common multiple between 2 numbers
 def LCM(a,b):
 	return ((a*b) / GCD(a,b));
 
 #Find the LCM of more than 2 numbers via recursion
-#Eg. LCM(x,y,z) = LCM(x,LCM(b,c)))
+#Eg. LCM(x,y,z) = LCM(x,LCM(y,z)))
 def multiLCM(numbers):
 	while (len(numbers) > 1):
 		x = numbers.pop()
