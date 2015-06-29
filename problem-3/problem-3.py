@@ -1,5 +1,3 @@
-import math
-
 def largestPrime(num):
     x = 2
     while (num > x):
